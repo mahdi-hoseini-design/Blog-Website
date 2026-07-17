@@ -1,0 +1,277 @@
+* {
+    box-sizing: border-box;
+    font-family: tahoma;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+header {
+    height: 60px;
+    background-color: #ddd;
+    position: relative;
+    padding: 0;
+}
+
+ul {
+    display: inline;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+.active {
+    border-bottom: 1px solid red;
+    color: red;
+}
+
+.banner {
+    height: 400px;
+    width: 1400px;
+    display: grid;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 180px;
+}
+
+.banner img {
+    height: 360px;
+    width: 1360px;
+    display: inline;
+    position: relative;
+    border-radius: 8px;
+}
+
+.breacdrump {
+    display: flex;
+    position: absolute;
+    margin-top: -70px;
+    color: white;
+    margin-left: 1380px;
+}
+
+.main-content {
+    margin-top: 100px;
+}
+
+.card {
+    height: 270px;
+    width: 850px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+    margin-left: 270px;
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    margin-top: 40px;
+}
+
+.card img {
+    width: 300px;
+    height: 250px;
+    margin-left: -0px;
+    margin-top: 12px;
+}
+
+.item {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+.item h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.item p {
+    color: #555555;
+}
+
+.item p span {
+    color: red;
+}
+
+.power {
+    display: flex;
+    margin-right: 50px;
+    margin-top: 55px;
+}
+
+.read {
+    display: flex;
+    margin-left: 430px;
+    margin-top: -15px;
+    font-size: 14px;
+    color: #555555;
+}
+
+.side-bar {
+    margin-top: -1510px;
+    margin-left: 1150px;
+    position: relative;
+}
+
+.side-bar img {
+    height: 150px;
+    width: 150px;
+    margin-left: 50px;
+}
+
+.mahdi {
+    height: 300px;
+    width: 280px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+    padding: 15px;
+}
+
+.mahdi h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.insta {
+    height: 300px;
+    width: 280px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.insta img {
+    height: 150px;
+    width: 150px;
+    margin-left: 50px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.insta p {
+    text-align: center;
+}
+
+.socials {
+    font-size: 20px;
+}
+
+.socials a {
+    color: red;
+    transition: all ease 0.5s;
+}
+
+.socials a:hover {
+    color: black;
+}
+
+.cat {
+    height: 300px;
+    width: 280px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.cat h2 {
+    color: #555555;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cat p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.recent {
+    height: 420px;
+    width: 280px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.recent img {
+    height: 100px;
+    width: 100px;
+    border-radius: 8px;
+    margin-left: 2px;
+}
+
+.recent h5 {
+    font-size: 20px;
+}
+
+.recent h4 {
+    margin-top: -90px;
+    margin-left: 110px;
+    color: red;
+}
+
+.recent p {
+    margin-top: -0px;
+    margin-left: 110px;
+}
+
+.tems {
+    margin-bottom: 70px;
+    border-bottom: 1px solid #ddd;
+}
+
+footer {
+    margin-top: 140px;
+    height: 200px;
+    min-width: 100vh;
+    background-color: #ddd;
+    padding: 20px;
+    background: url(/img/back.jpg) center/cover no-repeat;
+    color: white;
+}
+
+footer h3 {
+    text-align: center;
+}
+
+footer h4 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+footer li {
+    font-size: 20px;
+}
+
+footer ul {
+    margin-left: 740px;
+}
+
+footer a {
+    color: red;
+}
+
+.tgh {
+    color: white;
+    display: flex;
+    margin-left: 1650px;
+    margin-bottom: 200px;
+}
+
+
